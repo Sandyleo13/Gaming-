@@ -1,6 +1,7 @@
 
 import { Calendar, Trophy, Users, Clock, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 interface TournamentCardProps {
   id: string;
@@ -85,9 +86,11 @@ const TournamentCard = ({
         </div>
         
         <div className="mt-auto">
-          <Button className="w-full bg-gaming-dark-purple hover:bg-gaming-purple flex items-center justify-center gap-2 group">
-            <span>Register</span>
-            <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
+          <Button asChild className="w-full bg-gaming-dark-purple hover:bg-gaming-purple flex items-center justify-center gap-2 group">
+            <Link to={`/tournaments/${id}`}>
+              <span>Register</span>
+              <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
+            </Link>
           </Button>
         </div>
       </div>

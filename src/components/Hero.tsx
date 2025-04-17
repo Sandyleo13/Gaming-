@@ -1,6 +1,7 @@
 
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Trophy, Users, Calendar } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -22,12 +23,14 @@ const Hero = () => {
             </p>
             
             <div className="flex flex-wrap justify-center lg:justify-start items-center gap-4 pt-4">
-              <Button className="btn-primary text-base py-6 px-8 rounded-md font-medium flex items-center gap-2 group">
-                <span>Browse Tournaments</span>
-                <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
+              <Button className="btn-primary text-base py-6 px-8 rounded-md font-medium flex items-center gap-2 group" asChild>
+                <Link to="/tournaments">
+                  <span>Browse Tournaments</span>
+                  <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
+                </Link>
               </Button>
-              <Button variant="outline" className="btn-outline text-base py-6 px-8 rounded-md font-medium">
-                Create Tournament
+              <Button variant="outline" className="btn-outline text-base py-6 px-8 rounded-md font-medium" asChild>
+                <Link to="/create-tournament">Create Tournament</Link>
               </Button>
             </div>
             
@@ -63,11 +66,11 @@ const Hero = () => {
                     <div className="text-gaming-orange uppercase text-sm font-bold tracking-wider mb-1">Featured Tournament</div>
                     <h3 className="text-xl font-bold text-white">Apex Legends Global Series</h3>
                     <div className="flex items-center gap-3 mt-3">
-                      <div className="bg-gaming-dark-gray px-3 py-1 rounded-md text-sm">$100,000 Prize</div>
+                      <div className="bg-gaming-dark-gray px-3 py-1 rounded-md text-sm">₹7,50,000 Prize</div>
                       <div className="bg-gaming-dark-gray px-3 py-1 rounded-md text-sm">Tomorrow</div>
                     </div>
-                    <Button className="mt-3 w-full bg-gaming-light-purple hover:bg-gaming-purple">
-                      Register Now
+                    <Button className="mt-3 w-full bg-gaming-light-purple hover:bg-gaming-purple" asChild>
+                      <Link to="/tournaments/1">Register Now</Link>
                     </Button>
                   </div>
                 </div>
