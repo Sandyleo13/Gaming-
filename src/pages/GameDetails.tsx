@@ -13,7 +13,7 @@ const GameDetails = () => {
   const game = {
     id: id || 'apex',
     name: 'Apex Legends',
-    image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5',
+    image: '/lovable-uploads/6662bb16-6564-4e87-9e37-7edb15913f19.png',
     players: '45,000+',
     tournaments: 18,
     rating: 4.8,
@@ -23,7 +23,7 @@ const GameDetails = () => {
         id: '1',
         title: 'Apex Legends Global Series',
         game: 'Apex Legends',
-        image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5',
+        image: '/lovable-uploads/6662bb16-6564-4e87-9e37-7edb15913f19.png',
         prize: '₹7,50,000',
         date: 'Apr 20, 2025',
         time: '6:00 PM IST',

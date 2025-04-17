@@ -37,37 +37,37 @@ const games = [
   {
     id: 'apex',
     name: 'Apex Legends',
-    image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5',
+    image: '/lovable-uploads/6662bb16-6564-4e87-9e37-7edb15913f19.png',
     tournaments: 18
   },
   {
     id: 'fortnite',
     name: 'Fortnite',
-    image: 'https://images.unsplash.com/photo-1605810230434-7631ac76ec81',
+    image: '/lovable-uploads/cdd1330a-4539-4305-9766-9184be131acc.png',
     tournaments: 24
   },
   {
     id: 'cod',
     name: 'Call of Duty',
-    image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5',
+    image: '/lovable-uploads/809c9b6f-72a4-4f4b-90e7-363c4abbc759.png',
     tournaments: 16
   },
   {
     id: 'lol',
     name: 'League of Legends',
-    image: 'https://images.unsplash.com/photo-1605810230434-7631ac76ec81',
+    image: '/lovable-uploads/aec433b9-b5d0-45b0-bad3-27c0727635b3.png',
     tournaments: 21
   },
   {
     id: 'valorant',
     name: 'Valorant',
-    image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5',
+    image: '/lovable-uploads/a9542c40-9b96-485c-a99b-88dbfd4bdb99.png',
     tournaments: 15
   },
   {
     id: 'rocket',
     name: 'Rocket League',
-    image: 'https://images.unsplash.com/photo-1605810230434-7631ac76ec81',
+    image: '/lovable-uploads/3c56e47d-67b5-44bf-b967-d20328de3d8d.png',
     tournaments: 9
   },
 ];
