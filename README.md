@@ -1,73 +1,123 @@
-# Welcome to your Lovable project
 
-## Project info
+# 🎮 GameON Universe
 
-**URL**: https://lovable.dev/projects/4bf1bcd4-7fdb-49be-9c04-42c65b4dc32c
+GameON Universe is a modern, responsive web application for organizing and participating in online gaming tournaments. Built with React, TypeScript, TailwindCSS, and Vite, it offers an engaging user experience for gamers worldwide.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚀 Features
 
-**Use Lovable**
+- 🌐 Browse and create tournaments
+- 🏆 1,200+ tournaments and 50,000+ players
+- 📅 Daily events with exciting prizes
+- 💡 Responsive, animated UI
+- 🔐 Login & Sign Up functionality
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/4bf1bcd4-7fdb-49be-9c04-42c65b4dc32c) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Tech Stack
 
-**Use your preferred IDE**
+- **Frontend**: React + TypeScript
+- **Styling**: TailwindCSS
+- **Icons**: Lucide-react
+- **Bundler**: Vite
+- **Routing**: React Router (if implemented)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 📂 Project Structure
 
-Follow these steps:
+```
+src/
+│
+├── components/
+│   ├── Hero.tsx
+│   ├── Navbar.tsx
+│   ├── NavLinks.tsx
+│   ├── TournamentCard.tsx
+│   └── TournamentList.tsx
+│
+├── hooks/
+│   ├── use-mobile.tsx
+│   └── use-toast.ts
+│
+├── lib/ & pages/
+├── App.tsx
+├── index.css
+├── main.tsx
+```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## ⚙️ Getting Started
 
-# Step 3: Install the necessary dependencies.
-npm i
+### 1. Clone the repository
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+git clone https://github.com/your-username/game-on-universe.git
+cd game-on-universe
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the development server
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Server will be accessible at:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- Local: [http://localhost:8080](http://localhost:8080)
+- Network: [http://192.168.29.149:8080](http://192.168.29.149:8080)
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🧹 Clean-up Instructions
 
-## What technologies are used for this project?
+If you cloned from a template like `gptengineer`, make sure to remove this line in `index.html`:
 
-This project is built with:
+```html
+<!-- REMOVE THIS LINE -->
+<script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Replace with:
 
-## How can I deploy this project?
+```html
+<script type="module" src="/src/main.tsx"></script>
+```
 
-Simply open [Lovable](https://lovable.dev/projects/4bf1bcd4-7fdb-49be-9c04-42c65b4dc32c) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## 🖼️ Screenshots
 
-Yes, you can!
+![Landing Page](screenshots/landing-page.png)
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## 📦 Deployment
+
+To build the app for production:
+
+```bash
+npm run build
+```
+
+Deploy `dist/` folder to any static hosting platform like Vercel, Netlify, Firebase, etc.
+
+---
+
+## 📄 License
+
+MIT License – feel free to fork and modify!
+
+---
+
+## ✨ Credits
+
+Designed and developed by [Your Name]
