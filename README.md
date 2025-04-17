@@ -94,10 +94,6 @@ Replace with:
 
 ---
 
-## 🖼️ Screenshots
-
-![Landing Page](screenshots/landing-page.png)
-
 ---
 
 ## 📦 Deployment
@@ -120,4 +116,4 @@ MIT License – feel free to fork and modify!
 
 ## ✨ Credits
 
-Designed and developed by [Your Name]
+Designed and developed by Sandipan Das
